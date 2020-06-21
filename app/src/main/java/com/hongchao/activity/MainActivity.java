@@ -1,10 +1,10 @@
 package com.hongchao.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.Window;
+
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.os.Bundle;
 
 import com.hongchao.R;
 import com.hongchao.fragment.ContentFragment;
@@ -20,6 +20,7 @@ public class MainActivity extends SlidingFragmentActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         initSlidingMenu();
         //初始化fragment
@@ -52,5 +53,23 @@ public class MainActivity extends SlidingFragmentActivity {
         fragmentTransaction.replace(R.id.fl_left_menu,new LeftMenuFragment(), LEFT_MENU_TAG);//主页
         //4.提交
         fragmentTransaction.commit();
+    }
+
+    /**
+     * 得到左侧菜单LeftMenuFragment
+     * @return
+     */
+    public LeftMenuFragment getLeftMenuFragment() {
+        FragmentManager fm = getSupportFragmentManager();
+        LeftMenuFragment leftMenuFragment = (LeftMenuFragment) fm.findFragmentByTag(LEFT_MENU_TAG);
+        return leftMenuFragment;
+    }
+
+    /**
+     * 得到正文的fragment
+     * @return
+     */
+    public ContentFragment getContentFragment() {
+        return (ContentFragment) getSupportFragmentManager().findFragmentByTag(MAIN_CONTENT_TAG);
     }
 }
