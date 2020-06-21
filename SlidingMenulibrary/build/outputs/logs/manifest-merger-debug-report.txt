@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:1-9:12
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:1-9:12
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:1-9:12
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:1-9:12
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:1-9:12
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:1-9:12
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:3:5-50
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:5:5-30
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml:4:5-28
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+uses-sdk
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+		ADDED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+		ADDED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from G:\ProjectDemo\SlidingMenulibrary\AndroidManifest.xml
