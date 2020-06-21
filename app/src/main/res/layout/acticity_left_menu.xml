@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/fl_left_menu"
-    android:background="#BAB7B7">
+    android:background="#000000">
 
 <!--    <TextView-->
 <!--        android:layout_gravity="center"-->

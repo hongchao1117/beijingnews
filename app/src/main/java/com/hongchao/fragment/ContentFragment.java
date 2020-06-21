@@ -71,7 +71,6 @@ public class ContentFragment extends BaseFragment {
         basePagers.add(new GovaffairPager(context));//政要主页面
         basePagers.add(new SettingsPager(context));//设置中心主页面
 
-
         //设置viewpager的适配器
         viewPager.setAdapter(new ContentFragmentAdapter(basePagers));
 
@@ -88,10 +87,17 @@ public class ContentFragment extends BaseFragment {
         isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
     }
 
+    /**
+     * 得到新闻中心
+     * @return
+     */
+    public NewsCenterPager getNewsCenterPager() {
+        return (NewsCenterPager) basePagers.get(1);
+    }
+
     class MyOnPageChangeListener implements ViewPager.OnPageChangeListener{
 
         /**
-         *
          * @param position
          * @param positionOffset
          * @param positionOffsetPixels
