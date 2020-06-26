@@ -78,6 +78,7 @@ public class NewsCenterPager extends BasePager {
      */
     private void getDataFormNet() {
         RequestParams params = new RequestParams(Constants.NEWS_CENTER_PAGER_URL);
+        params.setConnectTimeout(5000);
         x.http().get(params, new Callback.CommonCallback<String>() {
             @Override
             public void onSuccess(String result) {
@@ -130,7 +131,7 @@ public class NewsCenterPager extends BasePager {
         //添加详情页面
         detailBasePagers = new ArrayList<>();
         detailBasePagers.add(new NewsMenuDetailPager(context,data.get(0)));//新闻详情页面
-        detailBasePagers.add(new TopicMenuDetailPager(context));//专题详情页面
+        detailBasePagers.add(new TopicMenuDetailPager(context,data.get(0)));//专题详情页面
         detailBasePagers.add(new PhotoMenuDetailPager(context));//图组详情页面
         detailBasePagers.add(new InteractionMenuDetailPager(context));//互动详情页面
 
